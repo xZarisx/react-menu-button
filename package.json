@@ -7,7 +7,6 @@
     "jsx:demo": "etc/demo.js",
     "scripts": {
         "pretest": "webpack --config=./webpack-tests.babel.js --silent",
-        "test": "tape ./dist/tests/**/*.js | tap-spec",
         "start": "webpack-dev-server --config=./webpack-demo.babel.js --quiet --progress --colors",
         "ssr:client": "webpack --config=./webpack-demo.babel.js",
         "ssr:mw": "webpack --config=./webpack-express.babel.js",
